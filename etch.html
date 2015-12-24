@@ -29,6 +29,8 @@
 			$('.square').css("background-color","#c4c4c4");
 			var newSize = prompt("How large would you like the new grid? (max 45)");
 			$('.container').empty();
+
+			alert("Cleared");
 			createGrid(newSize);
 		}
 
@@ -44,6 +46,7 @@
 			$('.square').on('mouseenter',function() {
 				$(this).css("background-color","black");
 			});
+			alert("Created");
 
 		}
 
